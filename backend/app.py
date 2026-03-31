@@ -21,7 +21,7 @@ import io
 # Add parent dir to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
-import DermAI.backend.config as config
+import backend.config as config
 from backend.model import EfficientNet_ViT_Metadata
 
 from fastapi.staticfiles import StaticFiles
